@@ -1,7 +1,7 @@
 const Menu = [
   {
     id: "1",
-    image: "/src/Components/images/chai_paratha.jpg",
+    image: "/public/images/chai_paratha.jpg",
     name: "Chai Paratha",
     category: "Breakfast",
     price: "100$",
@@ -9,7 +9,7 @@ const Menu = [
   },
   {
     id: "2",
-    image: "/src/Components/images/boil_egg.jpg",
+    image: "/public/images/boil_egg.jpg",
     name: "Boiled Eggs",
     category: "Breakfast",
     price: "80$",
@@ -17,7 +17,7 @@ const Menu = [
   },
   {
     id: "3",
-    image: "/src/Components/images/samosa.jpg",
+    image: "/public/images/samosa.jpg",
     name: "Samosa",
     category: "Breakfast",
     price: "120$",
@@ -25,7 +25,7 @@ const Menu = [
   },
   {
     id: "4",
-    image: "/src/Components/images/pizza.jpg",
+    image: "/public/images/pizza.jpg",
     name: "Pizza",
     category: "Lunch",
     price: "500$",
@@ -33,7 +33,7 @@ const Menu = [
   },
   {
     id: "5",
-    image: "/src/Components/images/qorma.jpg",
+    image: "/public/images/qorma.jpg",
     name: "Chicken Qorma",
     category: "Lunch",
     price: "350$",
@@ -41,7 +41,7 @@ const Menu = [
   },
   {
     id: "6",
-    image: "/src/Components/images/baryani.jpg",
+    image: "/public/images/baryani.jpg",
     name: "Chicken Biryani",
     category: "Dinner",
     price: "400$",
@@ -49,7 +49,7 @@ const Menu = [
   },
   {
     id: "7",
-    image: "/src/Components/images/lobia.jpg",
+    image: "/public/images/lobia.jpg",
     name: "Lobia (Black Eyed Beans)",
     category: "Dinner",
     price: "900$",
@@ -57,7 +57,7 @@ const Menu = [
   },
   {
     id: "8",
-    image: "/src/Components/images/chai.jpg",
+    image: "/public/images/chai.jpg",
     name: "Special Tea",
     category: "Dinner",
     price: "450$",
