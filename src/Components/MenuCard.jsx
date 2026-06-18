@@ -7,21 +7,23 @@ const MenuCard=({menuData})=>{
 
         <section className="main-card--container">
         {menuData.map((CurEle)=>{
+
+            const{id,category,name,description,image}=CurEle
             return (
                 
                 <>
           
-             <div className="card-container" key={CurEle.id}>
+             <div className="card-container" key={id}>
             <div className="card">
                 <div className="card-body">
-                    <span className="card-number card-circle subtle">{CurEle.id}</span>
-                    <span className="card-auther subtle">{CurEle.category}</span>
-                    <h2 className="title">{CurEle.name}</h2>
+                    <span className="card-number card-circle subtle">{id}</span>
+                    <span className="card-auther subtle">{category}</span>
+                    <h2 className="title">{name}</h2>
                     <span className="card-discribtion subtle">
-                       {CurEle.description}
+                       {description}
                     </span>
                     <div className="card-read">Read</div>
-                    <img src={CurEle.image} alt="image" />
+                    <img src={image} alt="image" />
                     <span className="card-tag subtle">Order Now</span>
                 </div>
             </div>
